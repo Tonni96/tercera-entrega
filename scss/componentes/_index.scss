@@ -1,0 +1,22 @@
+//formato index 
+@import "../base/variables";
+
+div{
+    background-color: rgb(62, 38, 38) ;
+    section{
+        color: whitesmoke;
+        h3{
+            text-align: center;
+        }
+        div{
+            .parrafo-index{
+                text-align: center;
+            }
+        }
+    }
+    section{
+        div{
+            text-align: center;
+        }
+    }
+}

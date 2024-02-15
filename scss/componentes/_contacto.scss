@@ -1,0 +1,63 @@
+
+/*mq contacto*/
+@media screen and (min-width:600px){
+    .contacto-cuerpo{
+        div{
+            section{
+                text-align: center;
+            }
+        }
+        
+        }
+    .contenedor-imagenes{
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(30px);
+
+        
+    }
+    .chocolate-corazon{
+        padding: 40px;
+    }
+    .corazon{
+        height: auto;
+        width: 500px;
+    }
+    .imagen-video{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around ;
+    }   
+}
+@media screen and (min-width:1024px){
+    .chocolate-uno{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .div-bombas{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .bomba-uno{
+        text-align: left;
+    }
+    .choclate-tres{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .especialidades-dos{
+        width: 400px;
+        height: auto;
+    }
+    .contenedor-contacto{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .parrafo-visitanos{
+        text-align: center;
+    }
+
+}
